@@ -122,4 +122,16 @@ export default class Person {
     }
   }
 
+  venusDeathCheater() {
+    if (this.age > this.lifeExpectancy) {
+      let venusAge = this.age / this.venusDenominator;
+      let venusLifeExpectancy = this.lifeExpectancy / this.venusDenominator;
+      let cheatTimeString = (venusAge - venusLifeExpectancy).toFixed(2);
+      let cheatTime = parseFloat(cheatTimeString);
+      return cheatTime;
+    } else if (this.age <= this.lifeExpectancy) {
+      return "you have yet to cheat death"
+    }
+  }
+
 }
