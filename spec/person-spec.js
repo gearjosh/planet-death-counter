@@ -42,4 +42,16 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you how long you have to live on earth', function() {
+    let actual = elevenYearOldGirl.earthTimeLeft();
+    let control = 70.30;
+    expect(actual).toEqual(control);
+  });
+
+  it('should tell you how long you have to live on mercury', function() {
+    let actual = elevenYearOldGirl.mercuryTimeLeft();
+    let control = 292.92;
+    expect(actual).toEqual(control);
+  });
+
 });
