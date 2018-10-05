@@ -5,8 +5,8 @@ describe('Person', function() {
   let ninetyYearOldMan;
 
   beforeEach(function() {
-    elevenYearOldGirl = new Person(11, female);
-    ninetyYearOldMan = new Person(90, male);
+    elevenYearOldGirl = new Person(11, "female");
+    ninetyYearOldMan = new Person(90, "male");
   });
 
   it('should tell you your age in earth years', function() {
@@ -14,4 +14,4 @@ describe('Person', function() {
     let control = 11;
     expect(actual).toEqual(control);
   });
-};
+});
