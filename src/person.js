@@ -5,6 +5,9 @@ export default class Person {
     this.sex = sex;
   }
 
-
+  earthConverter() {
+    let baseAge = personObj.age;
+    return baseAge;
+  }
 
 }
