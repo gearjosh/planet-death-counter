@@ -60,4 +60,10 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you how long you have to live on mars', function() {
+    let actual = elevenYearOldGirl.marsTimeLeft();
+    let control = 37.39;
+    expect(actual).toEqual(control);
+  });
+
 });

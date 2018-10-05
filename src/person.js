@@ -80,4 +80,14 @@ export default class Person {
     return timeLeft;
   }
 
+  marsTimeLeft() {
+    let baseAge = this.age;
+    let baseLifeExpectancy = this.lifeExpectancy;
+    let marsLifeExpectancy = baseLifeExpectancy / this.marsDenominator;
+    let marsAge = baseAge / this.marsDenominator;
+    let timeLeftString = (marsLifeExpectancy - marsAge).toFixed(2);
+    let timeLeft = parseFloat(timeLeftString);
+    return timeLeft;
+  }
+
 }
