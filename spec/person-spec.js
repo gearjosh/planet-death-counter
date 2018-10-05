@@ -72,4 +72,10 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you how many years you have cheated death on earth', function() {
+    let actual = ninetyYearOldMan.earthDeathCheater();
+    let control = 13.7;
+    expect(actual).toEqual(control);
+  });
+
 });

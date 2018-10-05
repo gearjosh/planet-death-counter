@@ -100,4 +100,16 @@ export default class Person {
     return timeLeft;
   }
 
+  earthDeathCheater() {
+    if (this.age > this.lifeExpectancy) {
+      let cheatTimeString = (this.age - this.lifeExpectancy).toFixed(2);
+      let cheatTime = parseFloat(cheatTimeString);
+      return cheatTime;
+    } else if (this.age <= this.lifeExpectancy) {
+      return "you have yet to cheat death"
+    }
+  }
+
+  
+
 }

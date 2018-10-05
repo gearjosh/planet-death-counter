@@ -112,31 +112,31 @@
     });
 
     it('should tell you how many years you have cheated death on earth', function() {
-      let actual = Person.earthDeathCheater(ninetyYearOldMan);
+      let actual = ninetyYearOldMan.earthDeathCheater();
       let control = 13.7;
       expect(actual).toEqual(control);
     });
 
     it('should tell you how many years you have cheated death on mercury', function() {
-      let actual = Person.mercuryDeathCheater(ninetyYearOldMan);
+      let actual = ninetyYearOldMan.mercuryDeathCheater();
       let control = 57.08;
       expect(actual).toEqual(control);
     });
 
     it('should tell you how many years you have cheated death on venus', function() {
-      let actual = Person.venusDeathCheater(ninetyYearOldMan);
+      let actual = ninetyYearOldMan.venusDeathCheater();
       let control = 22.10;
       expect(actual).toEqual(control);
     });
 
     it('should tell you how many years you have cheated death on mars', function() {
-      let actual = Person.marsDeathCheater(ninetyYearOldMan);
+      let actual = ninetyYearOldMan.marsDeathCheater();
       let control = 7.28;
       expect(actual).toEqual(control);
     });
 
     it('should tell you how many years you have cheated death on jupiter', function() {
-      let actual = Person.jupiterDeathCheater(ninetyYearOldMan);
+      let actual = ninetyYearOldMan.jupiterDeathCheater();
       let control = 1.16;
       expect(actual).toEqual(control);
     });
