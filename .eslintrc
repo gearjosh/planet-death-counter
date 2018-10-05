@@ -15,7 +15,7 @@
       "no-console": "warn",
       "no-debugger": "warn",
       "no-unused-vars": [
-      "error", {
+      "warn", {
       "varsIgnorePattern": "[iI]gnore"
     }
     ]
