@@ -5,5 +5,6 @@ export default class Person {
     this.sex = sex;
   }
 
+  
 
 };
