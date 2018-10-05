@@ -106,7 +106,7 @@ export default class Person {
       let cheatTime = parseFloat(cheatTimeString);
       return cheatTime;
     } else if (this.age <= this.lifeExpectancy) {
-      return "you have yet to cheat death"
+      return "you have yet to cheat death";
     }
   }
 
@@ -118,7 +118,7 @@ export default class Person {
       let cheatTime = parseFloat(cheatTimeString);
       return cheatTime;
     } else if (this.age <= this.lifeExpectancy) {
-      return "you have yet to cheat death"
+      return "you have yet to cheat death";
     }
   }
 
@@ -130,7 +130,7 @@ export default class Person {
       let cheatTime = parseFloat(cheatTimeString);
       return cheatTime;
     } else if (this.age <= this.lifeExpectancy) {
-      return "you have yet to cheat death"
+      return "you have yet to cheat death";
     }
   }
 
@@ -142,7 +142,7 @@ export default class Person {
       let cheatTime = parseFloat(cheatTimeString);
       return cheatTime;
     } else if (this.age <= this.lifeExpectancy) {
-      return "you have yet to cheat death"
+      return "you have yet to cheat death";
     }
   }
 
@@ -154,7 +154,7 @@ export default class Person {
       let cheatTime = parseFloat(cheatTimeString);
       return cheatTime;
     } else if (this.age <= this.lifeExpectancy) {
-      return "you have yet to cheat death"
+      return "you have yet to cheat death";
     }
   }
 
