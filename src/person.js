@@ -146,4 +146,16 @@ export default class Person {
     }
   }
 
+  jupiterDeathCheater() {
+    if (this.age > this.lifeExpectancy) {
+      let jupiterAge = this.age / this.jupiterDenominator;
+      let jupiterLifeExpectancy = this.lifeExpectancy / this.jupiterDenominator;
+      let cheatTimeString = (jupiterAge - jupiterLifeExpectancy).toFixed(2);
+      let cheatTime = parseFloat(cheatTimeString);
+      return cheatTime;
+    } else if (this.age <= this.lifeExpectancy) {
+      return "you have yet to cheat death"
+    }
+  }
+
 }
