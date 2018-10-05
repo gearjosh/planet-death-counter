@@ -32,12 +32,12 @@
 2. Specs
   * Spec 1: Description, input, output.
   * Spec 2: Description, input, output.
-  - US female life expectancy: 81.30 [source](https://www.worldlifeexpectancy.com/usa/life-expectancy-female)
+  - US female life expectancy: 81.30 ([source](https://www.worldlifeexpectancy.com/usa/life-expectancy-female))
     - on mercury: 338.75
     - on venus: 131.13
     - on mars: 43.24
     - on jupiter: 6.85
-  - US male life expectancy: 76.30 [source](https://www.worldlifeexpectancy.com/usa/life-expectancy-male)
+  - US male life expectancy: 76.30 ([source](https://www.worldlifeexpectancy.com/usa/life-expectancy-male))
     - on mercury: 317.92
     - on venus: 123.06
     - on mars: 40.59
