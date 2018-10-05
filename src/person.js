@@ -9,6 +9,10 @@ export default class Person {
     } else {
       this.lifeExpectancy = NaN;
     }
+    this.mercuryDenominator = 0.24;
+    this.venusDenominator = 0.62;
+    this.marsDenominator = 1.88;
+    this.jupiterDenominator = 11.86;
   }
 
   earthConverter() {
@@ -18,7 +22,7 @@ export default class Person {
 
   mercuryConverter() {
     let baseAge = (this.age);
-    let mercuryAgeLong = baseAge / 0.24;
+    let mercuryAgeLong = baseAge / this.mercuryDenominator;
     let mercuryAgeString = mercuryAgeLong.toFixed(2);
     let mercuryAge = parseFloat(mercuryAgeString);
     return mercuryAge;
@@ -26,7 +30,7 @@ export default class Person {
 
   venusConverter() {
     let baseAge = (this.age);
-    let venusAgeLong = baseAge / 0.62;
+    let venusAgeLong = baseAge / this.venusDenominator;
     let venusAgeString = venusAgeLong.toFixed(2);
     let venusAge = parseFloat(venusAgeString);
     return venusAge;
@@ -34,7 +38,7 @@ export default class Person {
 
   marsConverter() {
     let baseAge = (this.age);
-    let marsAgeLong = baseAge / 1.88;
+    let marsAgeLong = baseAge / this.marsDenominator;
     let marsAgeString = marsAgeLong.toFixed(2);
     let marsAge = parseFloat(marsAgeString);
     return marsAge;
@@ -42,7 +46,7 @@ export default class Person {
 
   jupiterConverter() {
     let baseAge = (this.age);
-    let jupiterAgeLong = baseAge / 11.86;
+    let jupiterAgeLong = baseAge / this.jupiterDenominator;
     let jupiterAgeString = jupiterAgeLong.toFixed(2);
     let jupiterAge = parseFloat(jupiterAgeString);
     return jupiterAge;
@@ -59,13 +63,21 @@ export default class Person {
   mercuryTimeLeft() {
     let baseAge = this.age;
     let baseLifeExpectancy = this.lifeExpectancy;
-    let mercuryLifeExpectancy = baseLifeExpectancy / 0.24;
-    let mercuryAge = baseAge / 0.24;
+    let mercuryLifeExpectancy = baseLifeExpectancy / this.mercuryDenominator;
+    let mercuryAge = baseAge / this.mercuryDenominator;
     let timeLeftString = (mercuryLifeExpectancy - mercuryAge).toFixed(2);
     let timeLeft = parseFloat(timeLeftString);
     return timeLeft;
   }
 
-
+  venusTimeLeft() {
+    let baseAge = this.age;
+    let baseLifeExpectancy = this.lifeExpectancy;
+    let venusLifeExpectancy = baseLifeExpectancy / this.venusDenominator;
+    let venusAge = baseAge / this.venusDenominator;
+    let timeLeftString = (venusLifeExpectancy - venusAge).toFixed(2);
+    let timeLeft = parseFloat(timeLeftString);
+    return timeLeft;
+  }
 
 }

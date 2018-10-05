@@ -54,4 +54,10 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you how long you have to live on venus', function() {
+    let actual = elevenYearOldGirl.venusTimeLeft();
+    let control = 113.39;
+    expect(actual).toEqual(control);
+  });
+
 });
