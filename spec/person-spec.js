@@ -1,8 +1,8 @@
 import Person from './../src/person.js';
 
 describe('Person', function() {
-  let elevenYearOldGirl;
-  let ninetyYearOldMan;
+  const elevenYearOldGirl;
+  const ninetyYearOldMan;
 
   beforeEach(function() {
     elevenYearOldGirl = new Person(11, "female");
