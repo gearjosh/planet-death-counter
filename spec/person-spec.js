@@ -78,4 +78,10 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you how many years you have cheated death on mercury', function() {
+    let actual = ninetyYearOldMan.mercuryDeathCheater();
+    let control = 57.08;
+    expect(actual).toEqual(control);
+  });
+
 });

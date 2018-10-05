@@ -110,6 +110,16 @@ export default class Person {
     }
   }
 
-  
+  mercuryDeathCheater() {
+    if (this.age > this.lifeExpectancy) {
+      let mercuryAge = this.age / this.mercuryDenominator;
+      let mercuryLifeExpectancy = this.lifeExpectancy / this.mercuryDenominator;
+      let cheatTimeString = (mercuryAge - mercuryLifeExpectancy).toFixed(2);
+      let cheatTime = parseFloat(cheatTimeString);
+      return cheatTime;
+    } else if (this.age <= this.lifeExpectancy) {
+      return "you have yet to cheat death"
+    }
+  }
 
 }
