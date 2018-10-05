@@ -102,4 +102,10 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you that you have yet to cheat death if you have not lived past average life expectancy', function() {
+    let actual = elevenYearOldGirl.jupiterDeathCheater();
+    let control = "you have yet to cheat death";
+    expect(actual).toEqual(control);
+  });
+
 });
