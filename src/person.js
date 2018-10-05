@@ -90,4 +90,14 @@ export default class Person {
     return timeLeft;
   }
 
+  jupiterTimeLeft() {
+    let baseAge = this.age;
+    let baseLifeExpectancy = this.lifeExpectancy;
+    let jupiterLifeExpectancy = baseLifeExpectancy / this.jupiterDenominator;
+    let jupiterAge = baseAge / this.jupiterDenominator;
+    let timeLeftString = (jupiterLifeExpectancy - jupiterAge).toFixed(2);
+    let timeLeft = parseFloat(timeLeftString);
+    return timeLeft;
+  }
+
 }
