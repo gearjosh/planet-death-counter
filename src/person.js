@@ -33,6 +33,12 @@ export default class Person {
     return marsAge;
   }
 
-  
+  jupiterConverter() {
+    let baseAge = (this.age);
+    let jupiterAgeLong = baseAge / 11.86;
+    let jupiterAgeString = jupiterAgeLong.toFixed(2);
+    let jupiterAge = parseFloat(jupiterAgeString);
+    return jupiterAge;
+  }
 
 }

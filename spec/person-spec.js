@@ -36,4 +36,10 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you your age in jupiter years', function() {
+    let actual = elevenYearOldGirl.jupiterConverter();
+    let control = 0.93;
+    expect(actual).toEqual(control);
+  });
+
 });
