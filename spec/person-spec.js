@@ -1,12 +1,12 @@
-import { Person } from './../src/person.js';
+import Person from './../src/person';
 
 describe('Person', function() {
   let elevenYearOldGirl;
   let ninetyYearOldMan;
 
   beforeEach(function() {
-    elevenYearOldGirl = new Person.constructor(11, "female");
-    ninetyYearOldMan = new Person.constructor(90, "male");
+    elevenYearOldGirl = new Person(11, "female");
+    ninetyYearOldMan = new Person(90, "male");
   });
 
   it('should tell you your age in earth years', function() {
