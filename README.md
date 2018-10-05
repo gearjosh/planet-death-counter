@@ -1,6 +1,6 @@
 ## Planning
 
-1. Configuration/dependencies (npm)
+### Configuration/dependencies (npm)
   * This should include ALL dependencies.
   * It should also include WHERE they are defined and used in the project
   * It could include a short description of what each does for you
@@ -29,9 +29,7 @@
   - webpack-dev-server 3.1.0: creates a server for development
   - jquery 3.3.1: enables jquery commands
 
-2. Specs
-  * Spec 1: Description, input, output.
-  * Spec 2: Description, input, output.
+### Specs
   - US female life expectancy: 81.30 ([source](https://www.worldlifeexpectancy.com/usa/life-expectancy-female))
     - on mercury: 338.75
     - on venus: 131.13
@@ -146,11 +144,11 @@
   });
   ```
 
-3. UX/UI
+### UX/UI
   * Include and modify bootstrap/materialize/Sass etc.
   * Develop custom style
 
-4. Polish
+### Polish
   * Refactor minor portion of...
   * Delete unused...
   * Make README awesome
