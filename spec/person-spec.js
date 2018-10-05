@@ -90,4 +90,10 @@ describe('Person', function() {
     expect(actual).toEqual(control);
   });
 
+  it('should tell you how many years you have cheated death on mars', function() {
+    let actual = ninetyYearOldMan.marsDeathCheater();
+    let control = 7.29;
+    expect(actual).toEqual(control);
+  });
+
 });

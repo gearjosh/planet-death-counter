@@ -134,4 +134,16 @@ export default class Person {
     }
   }
 
+  marsDeathCheater() {
+    if (this.age > this.lifeExpectancy) {
+      let marsAge = this.age / this.marsDenominator;
+      let marsLifeExpectancy = this.lifeExpectancy / this.marsDenominator;
+      let cheatTimeString = (marsAge - marsLifeExpectancy).toFixed(2);
+      let cheatTime = parseFloat(cheatTimeString);
+      return cheatTime;
+    } else if (this.age <= this.lifeExpectancy) {
+      return "you have yet to cheat death"
+    }
+  }
+
 }
