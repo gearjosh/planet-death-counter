@@ -1,4 +1,4 @@
-import Person from './../src/person';
+import Person from './../src/person.js';
 
 describe('Person', function() {
   let elevenYearOldGirl;
