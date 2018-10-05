@@ -1,9 +1,6 @@
 ## Planning
 
 ### Configuration/dependencies (npm)
-  * This should include ALL dependencies.
-  * It should also include WHERE they are defined and used in the project
-  * It could include a short description of what each does for you
   - babel-core 6.26.0: a transpiler that turns new jacascript into old javascript
   - babel-loader 7.1.3: a loader for babel
   - babel-preset-es2015 6.24.1: a preset to transpile ES6
