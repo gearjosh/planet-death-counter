@@ -165,9 +165,11 @@ _For OSX_
   - `$ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile`
 
 _For other operating systems_
+
 Head on over to the [Node website](https://nodejs.org/en/download/) to download and install the appropriate installer for your computer.
 
 _Install Node.js_
+
 Now install Node.js like this in terminal: `$ brew install node`.
 
 ****
