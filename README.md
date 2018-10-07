@@ -157,23 +157,24 @@
 
 You must have Node.js installed on your machine. If not, follow these pre-instructions:
 
-_For OSX_
+#### _For OSX_
 
 - First, install Homebrew if it is not installed on your computer already.
   - To install Homebrew, enter the following in order in terminal:
   - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
   - `$ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile`
 
-_For other operating systems_
+#### _For other operating systems_
 
 Head on over to the [Node website](https://nodejs.org/en/download/) to download and install the appropriate installer for your computer.
 
-_Install Node.js_
+#### _Install Node.js_
 
 Now install Node.js like this in terminal: `$ brew install node`.
 
 ****
-_Once Node.js is installed_
+
+#### _Once Node.js is installed_
 
 - Open terminal and enter `$ cd Desktop` (or your preferred destination).
 - Then enter `$ git clone https://github.com/gearjosh/planet-death-counter.git`.
