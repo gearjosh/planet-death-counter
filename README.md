@@ -1,12 +1,8 @@
-#Co-Working Space Freelance Project
+# Interplanetary Death Counter
 
-#### A site for a fictional co-working space, September 14, 2018
+#### A program that tells you when you will die on multiple planets, October 5, 2018
 
 #### By Josh Gearheart
-
-## Description
-<!-- This is a site design project for a fictional co-working space.  It includes photos of paper sketches, wireframes and prototypes in Sketch, as well as a real responsive landing page. -->
-
 
 ## Planning
 
