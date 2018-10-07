@@ -1,3 +1,13 @@
+#Co-Working Space Freelance Project
+
+#### A site for a fictional co-working space, September 14, 2018
+
+#### By Josh Gearheart
+
+## Description
+<!-- This is a site design project for a fictional co-working space.  It includes photos of paper sketches, wireframes and prototypes in Sketch, as well as a real responsive landing page. -->
+
+
 ## Planning
 
 ### Configuration/dependencies (npm)
@@ -147,11 +157,40 @@
   });
   ```
 
-### UX/UI
-  * Include and modify bootstrap/materialize/Sass etc.
-  * Develop custom style
+## Setup/Installation Requirements
 
-### Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
+You must have Node.js installed on your machine. If not, follow these pre-instructions:
+
+_For OSX_
+
+- First, install Homebrew if it is not installed on your computer already.
+  - To install Homebrew, enter the following in order in terminal:
+  - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - `$ echo 'export PATH=/usr/local/bin:$PATH' >> ~/.bash_profile`
+
+_For other operating systems_
+Head on over to the [Node website](https://nodejs.org/en/download/) to download and install the appropriate installer for your computer.
+
+_Install Node.js_
+Now install Node.js like this in terminal: `$ brew install node`.
+
+****
+_Once Node.js is installed_
+
+- Open terminal and enter `$ cd Desktop` (or your preferred destination).
+- Then enter `$ git clone https://github.com/gearjosh/planet-death-counter.git`.
+- Enter `$ cd planet-death-counter`.
+- Enter `$ npm install`
+- Finally, enter `$ npm run start`.
+
+## Known Bugs
+- There is no user interface, and commands cannot be given in the console. All this can do at the moment is pass tests.
+
+## Support and contact details
+- For questions or support you can email me at: comedian.sean.connery@gmail.com.
+
+## Technologies Used
+- This uses Javascript, Node.js, and everything listed under _Configuration/dependencies (npm)"_ above.
+
+### License
+This software is licensed under GNU GPLv3.
