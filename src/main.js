@@ -1,3 +1,3 @@
 import './styles.css';
-import $ignore from 'jquery';
-import PersonIgnore from './../src/person';
+import $ from 'jquery';
+import Person from './../src/person';
