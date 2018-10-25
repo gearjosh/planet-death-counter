@@ -1,6 +1,6 @@
-# Interplanetary Death Counter
+# Interplanetary Life Counter
 
-#### A program that tells you when you will die on multiple planets, October 5, 2018
+#### A program that tells you how long you will live on multiple planets, October 5, 2018
 
 #### By Josh Gearheart
 
